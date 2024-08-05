@@ -78,6 +78,20 @@ namespace Demo
             //    Console.WriteLine(i);
             //}
             #endregion
+
+            #region Stack
+            //Stack<int> stack = new Stack<int>();
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+            //stack.Pop();
+            //stack.Pop();
+            //stack.Peek();
+            //bool Result = stack.TryPop(out int element);
+            //Console.WriteLine(element);
+            //Console.WriteLine(Result);
+            #endregion
         }
     }
 }
