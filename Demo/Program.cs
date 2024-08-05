@@ -87,10 +87,25 @@ namespace Demo
             //stack.Push(4);
             //stack.Pop();
             //stack.Pop();
+            //stack.TryPeek(out int element1);
             //stack.Peek();
-            //bool Result = stack.TryPop(out int element);
-            //Console.WriteLine(element);
+            //bool Result = stack.TryPop(out int element2);
+            //Console.WriteLine(element1);
+            //Console.WriteLine(element2);
             //Console.WriteLine(Result);
+            #endregion
+
+            #region Queue
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+            //queue.Dequeue();
+            //queue.Dequeue();
+            //queue.Dequeue();
+            //queue.TryPeek(out int e);
+            //Console.WriteLine(e);
             #endregion
         }
     }
