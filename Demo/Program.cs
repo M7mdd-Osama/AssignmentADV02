@@ -33,8 +33,24 @@ namespace Demo
             //{
             //    Console.WriteLine(item);
             //}
-            #endregion        
+            #endregion
 
+            #region List
+            //List<int> list = new List<int>();
+            //list.Add(1);
+            //list.Add(2);
+            //list.AddRange(new int[] { 3, 4, 5 });
+            //Console.WriteLine($"Count = {list.Count} , Capacity = {list.Capacity}");
+            //list.TrimExcess();
+            //Console.WriteLine($"Count = {list.Count} , Capacity = {list.Capacity}");
+
+            //List<int> list2 = new List<int>(5) { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+
+            //Console.WriteLine($"Count = {list2.Count} , Capacity = {list2.Capacity}");
+
+            //foreach (int i in list2)
+            //    Console.WriteLine(i);
+            #endregion        
         }
     }
 }
