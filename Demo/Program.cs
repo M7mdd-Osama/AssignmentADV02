@@ -50,7 +50,34 @@ namespace Demo
 
             //foreach (int i in list2)
             //    Console.WriteLine(i);
-            #endregion        
+            #endregion
+
+            #region Lists Methods
+            //List<int> list = new List<int>(10) { 1,2,3,4,5,6,3};
+            //list.Add(7);
+            //list.AddRange(new int[] {7,8,9} );
+            //list.Insert(0, 0);
+            ////list.Clear();
+            ////foreach (int i in list)
+            ////    Console.WriteLine(i);
+            //Console.WriteLine(list.IndexOf(3));
+            //list.Reverse();
+
+            //foreach (int i in list)
+            //    Console.WriteLine(i);
+            #endregion
+
+            #region Linked List
+            //LinkedList<int> linkedList = new LinkedList<int>();
+            //linkedList.AddLast(1);
+            //linkedList.AddFirst(2);
+            //linkedList.AddAfter(linkedList.Find(2),3);
+            //linkedList.AddBefore(linkedList.Find(3),5);
+            //foreach(int i in linkedList)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
         }
     }
 }
