@@ -1,24 +1,58 @@
-﻿namespace Assignment
+﻿using System.Collections;
+
+namespace Assignment
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Reverse(ArrayList arrayList)
         {
-            #region Part01
-            //Write a Report about all Collections Given in the Session
-            //and Compare [Structure, Time Complexity, and Business Case With Implemented Examples]
+            int start = 0;
+            int end = arrayList.Count - 1;
 
-            //Array List: Resizable Array, Heterogeneous, Fast, Dynamic arrays with random access
+            if (start < end)
+            {
+                var temp = arrayList[start];
+                arrayList[start] = arrayList[end];
+                arrayList[end] = temp;
+                start++;
+                end--;
+            }
+            static void Main()
+            {
+                #region Part01
+                //Write a Report about all Collections Given in the Session
+                //and Compare [Structure, Time Complexity, and Business Case With Implemented Examples]
 
-            //List: Abstract data type, Depends on implementation, Homogeneous, Defining a contract for list implementation
+                //Array List: Resizable Array, Heterogeneous, Fast, Dynamic arrays with random access
 
-            //Linked List: Nodes, Homogeneous, Dynamic Length, Slow, Frequent Insertions and deletions
+                //List: Abstract data type, Depends on implementation, Homogeneous, Defining a contract for list implementation
 
-            //Stack: LIFO, Slow, Function call management, undo mechanisms
+                //Linked List: Nodes, Homogeneous, Dynamic Length, Slow, Frequent Insertions and deletions
 
-            //Queue: FIFO, Slow, Task scheduling, handling requests in order
-            #endregion
+                //Stack: LIFO, Slow, Function call management, undo mechanisms
 
+                //Queue: FIFO, Slow, Task scheduling, handling requests in order
+                #endregion
+
+                #region Part02
+
+                #region Q1
+                ///You are given an ArrayList containing a sequence of elements.
+                ///try to reverse the order of elements in the ArrayList in-place(in the same arrayList) without using the built-in Reverse.
+                ///Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
+
+                ArrayList arrayList = new ArrayList() { 1, 2, 3, 4, 5 };
+                Reverse(arrayList);
+
+                foreach (int item in arrayList)
+                {
+                    Console.Write(item + " ");
+                }
+                #endregion
+
+
+                #endregion
+            }
         }
     }
 }
