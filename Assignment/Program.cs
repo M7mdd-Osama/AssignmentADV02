@@ -69,13 +69,46 @@ namespace Assignment
             ///You are given a list of integers.
             ///Your task is to find and return a new list containing only the even numbers from the given list.
 
-            List<int> numbers = new List<int> { 22, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            List<int> evenNumbers = EvenNumbers(numbers);
+            //List<int> numbers = new List<int> { 22, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //List<int> evenNumbers = EvenNumbers(numbers);
 
-            foreach (var num in evenNumbers)
-            {
-                Console.Write(num + " ");
-            }
+            //foreach (var num in evenNumbers)
+            //{
+            //    Console.Write(num + " ");
+            //}
+            #endregion
+
+            #region Q3
+            ///3. implement a custom list called FixedSizeList<T> with a predetermined capacity.
+            ///This list should not allow more elements than its capacity and should provide clear messages if one tries to exceed it or access invalid indices.
+            ///Requirements:
+            ///1.Create a generic class named FixedSizeList<T>.
+            ///2. Implement a constructor that takes the fixed capacity of the list as a
+            ///parameter.
+            ///3.Implement an Add method that adds an element to the list, but
+            ///throws an exception if the list is already full.
+            ///4.Implement a Get method that retrieves an element at a specific index
+            ///in the list but throws an exception for invalid indices.
+
+            //try
+            //{
+            //    FixedSizeList<int> fixedSizeList = new FixedSizeList<int>(5);
+            //    fixedSizeList.Add(1);
+            //    fixedSizeList.Add(2);
+            //    fixedSizeList.Add(3);
+            //    fixedSizeList.Add(4);
+            //    fixedSizeList.Add(5);
+
+            //    Console.WriteLine("Elements in the list:");
+            //    for (int i = 0; i < fixedSizeList.Count; i++)
+            //    {
+            //        Console.WriteLine(fixedSizeList.Get(i));
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
             #endregion
 
             #endregion
